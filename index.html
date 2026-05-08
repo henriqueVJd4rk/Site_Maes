@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Dia das Mães 🌹</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PLAYER DE MÚSICA -->
+  <div class="music-player" id="musicPlayer">
+    <button class="music-btn" id="musicBtn">🎵 Tocar música</button>
+    <span class="music-info">♪ Turn Around - Stranger Things ♪</span>
+  </div>
+  
+  <audio id="bgMusic" loop preload="auto">
+    <source src="musica/Turn Round.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Custom cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+ 
+  <!-- Floating petals -->
+  <div class="petals-bg" id="petals"></div>
+ 
+  <!-- ════ HERO ════ -->
+  <section class="hero">
+    <div class="hero-eyebrow">✦ &nbsp; Uma Homenagem Especial &nbsp; ✦</div>
+ 
+    <h1 class="hero-title">
+      Feliz
+      <em>Dia das</em>
+      <span class="word-maes">Mães</span>
+    </h1>
+ 
+    <div class="hero-for">Para a minha mãe querida 🌸</div>
+ 
+    <div class="hero-divider">
+      <span class="line"></span>
+      <span class="ornament">❧ ✦ ❧</span>
+      <span class="line"></span>
+    </div>
+ 
+    <p class="hero-poem">
+      <span>Nos seus braços encontro o lar,</span>
+      <span>no seu sorriso, a força de continuar.</span>
+      <span>Você é a raiz que me sustenta,</span>
+      <span>o amor mais bonito que se inventa.</span>
+    </p>
+ 
+    <div class="scroll-hint">
+      <p>Nossas memórias</p>
+      <div class="scroll-chevron"></div>
+    </div>
+  </section>
+ 
+  <!-- ════ GALLERY ════ -->
+  <div class="section-label">
+    <div class="tag">Nossa História em Fotos</div>
+    <h2>Momentos <em>Inesquecíveis</em></h2>
+    <div class="rule">
+      <span></span>
+      <i>✦</i>
+      <span></span>
+    </div>
+  </div>
+ 
+  <section class="gallery-section">
+    <div class="gallery-grid">
+ 
+      <div class="photo-card p1" onclick="openLight(this)">
+        <img src="img/img_mae1.jpeg" alt="Mãe com bebê">
+        <div class="caption">
+          <span class="c-num">memória 01</span>
+          <p>Amor de mãe 🤍</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card p2" onclick="openLight(this)">
+        <img src="img/img_mae2.jpeg" alt="Mãe e filho">
+        <div class="caption">
+          <span class="c-num">memória 02</span>
+          <p>Abraço eterno 🫂</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card p3" onclick="openLight(this)">
+        <img src="img/img_mae3.jpeg" alt="Momento íntimo">
+        <div class="caption">
+          <span class="c-num">memória 03</span>
+          <p>Noite tranquila 🐾</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card p4" onclick="openLight(this)">
+        <img src="img/img_mae4.jpeg" alt="Casal">
+        <div class="caption">
+          <span class="c-num">memória 04</span>
+          <p>Família linda 💕</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card p5" onclick="openLight(this)">
+        <img src="img/img_mae5.jpeg" alt="Ao ar livre">
+        <div class="caption">
+          <span class="c-num">memória 05</span>
+          <p>Nosso sol 🌤️</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card p6" onclick="openLight(this)">
+        <img src="img/img_mae6.jpeg" alt="Hospital">
+        <div class="caption">
+          <span class="c-num">memória 06</span>
+          <p>Chegada de um anjo 👶</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card p7" onclick="openLight(this)">
+        <img src="img/img_mae7.jpeg" alt="Café">
+        <div class="caption">
+          <span class="c-num">memória 07</span>
+          <p>Dias felizes ☕</p>
+        </div>
+      </div>
+
+      <div class="photo-card p8" onclick="openLight(this)">
+        <img src="img/img_mae8.jpeg" alt="Pista de gelo">
+        <div class="caption">
+          <span class="c-num">memória 08</span>
+          <p>dadadaddadad</p>
+        </div>
+      </div>
+ 
+      <div class="photo-card p9" onclick="openLight(this)">
+        <img src="img/img_mae9.jpeg" alt="Família reunida">
+        <div class="caption">
+          <span class="c-num">memória 09</span>
+          <p>dadqddwdaa</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ════ DEDICATION ════ -->
+  <section class="dedication">
+    <span class="deco-left" aria-hidden="true">M</span>
+    <span class="deco-right" aria-hidden="true">ã</span>
+ 
+    <div class="dedication-inner">
+      <span class="open-quote">"</span>
+ 
+      <div class="dedication-text">
+        <p>
+          Mãe, cada foto aqui mostra o que vc ja passou.
+          Você que me ensinou a <strong>amar sem medo</strong>, que esteve presente
+          em cada tropeço e em cada conquista.
+        </p>
+        <p>
+          Obrigada por ser meu porto seguro, minha maior <strong>inspiração</strong>
+          e o amor mais bonito da minha vida. Não existe distância que apague o que
+          você construiu no meu coração. I YO YOU TOO MUCH
+        </p>
+        <p>
+          Hoje e sempre, <strong>feliz Dia das Mães</strong>. 🌹
+        </p>
+      </div>
+ 
+      <div class="dedication-sig">
+        <div class="sig-line"></div>
+        <span class="sig-text">Com todo o meu amor 💛</span>
+        <span class="sig-sub">Para sempre seu filho</span>
+      </div>
+    </div>
+  </section>
+ 
+  <!-- ════ FOOTER ════ -->
+  <footer>
+    <span class="footer-top">Feliz Dia das Mães</span>
+    <div class="footer-ornament">✦ &nbsp; Uma homenagem feita com amor &nbsp; ✦</div>
+    <div class="footer-line"></div>
+    <span class="footer-copy">Feito com muito carinho <br> por: Henrique Vitoriano Jacomini <br> 2026</span>
+  </footer>
+ 
+  <!-- ════ LIGHTBOX ════ -->
+  <div class="lightbox" id="lightbox" onclick="closeLight(event)">
+    <span class="lightbox-close" onclick="closeLight()">×</span>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+    <!-- SCRIPT DA MÚSICA -->
+  <script>
+    // Controle da música
+    let musicaTocando = false;
+    const musica = document.getElementById('bgMusic');
+    const botaoMusica = document.getElementById('musicBtn');
+    
+    function controlarMusica() {
+      if (musicaTocando) {
+        musica.pause();
+        botaoMusica.innerHTML = '🎵 Tocar música';
+      } else {
+        musica.play().catch(erro => console.log('Clique em algum lugar da página primeiro'));
+        botaoMusica.innerHTML = '⏸ Pausar música';
+      }
+      musicaTocando = !musicaTocando;
+    }
+    
+    // Adiciona o clique no botão
+    document.getElementById('musicPlayer').addEventListener('click', controlarMusica);
+    
+    // Para tocar automaticamente quando clicar em qualquer lugar (opcional)
+    document.body.addEventListener('click', function iniciarMusica() {
+      if (!musicaTocando) {
+        musica.play().catch(() => {});
+        botaoMusica.innerHTML = '⏸ Pausar música';
+        musicaTocando = true;
+        document.body.removeEventListener('click', iniciarMusica);
+      }
+    }, { once: true });
+  </script>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
